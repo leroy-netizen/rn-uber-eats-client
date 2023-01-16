@@ -1,6 +1,9 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, FlatList } from "react-native";
 import HomeScreen from "./src/screens/HomeScreen/index.js";
+// file imports
+import restaurants from "./assets/data/restaurants.json";
+
 export default function App() {
   return (
     <View style={styles.container}>
