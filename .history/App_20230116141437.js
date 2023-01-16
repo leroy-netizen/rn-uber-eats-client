@@ -11,10 +11,6 @@ export default function App ()
     <View style={styles.container}>
       {/* <RestaurantItem restaurant={restaurants[0]} />
       <RestaurantItem restaurant={restaurants[1]} /> */}
-      <FlatList
-        data={restaurants}
-        renderItem={({item}) => <RestaurantItem restaurant={item} />}
-      />
       <StatusBar style="auto" />
     </View>
   );

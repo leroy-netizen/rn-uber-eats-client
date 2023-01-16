@@ -13,7 +13,7 @@ export default function App ()
       <RestaurantItem restaurant={restaurants[1]} /> */}
       <FlatList
         data={restaurants}
-        renderItem={({item}) => <RestaurantItem restaurant={item} />}
+        renderItem={() => <RestaurantItem restaurant={restaurants[0]} />}
       />
       <StatusBar style="auto" />
     </View>
