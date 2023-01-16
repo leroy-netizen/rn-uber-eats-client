@@ -47,18 +47,12 @@ const styles = StyleSheet.create({
     color: "grey",
   },
   row: {
-    flexDirection: "row",
-    alignItems: "center",
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   rating: {
-    marginLeft: "auto",
-    backgroundColor: "lightgray",
-    width: 30,
-    height: 20,
-    borderRadius: 20,
-    alignItems: "center",
-    justifyContent: "center",
-  },
+    marginLeft: 'auto',
+  }
 });
 
 export default RestaurantItem;

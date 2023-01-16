@@ -20,7 +20,7 @@ const RestaurantItem = ({ restaurant }) => {
             {restaurant.maxDeliveryTime} minutes
           </Text>
         </View>
-        <View style={styles.rating}>
+        <View style={styles.column}>
           <Text>{restaurant.rating}</Text>
         </View>
       </View>
@@ -47,18 +47,9 @@ const styles = StyleSheet.create({
     color: "grey",
   },
   row: {
-    flexDirection: "row",
-    alignItems: "center",
+    flexDirection:
   },
-  rating: {
-    marginLeft: "auto",
-    backgroundColor: "lightgray",
-    width: 30,
-    height: 20,
-    borderRadius: 20,
-    alignItems: "center",
-    justifyContent: "center",
-  },
+  rating:{}
 });
 
 export default RestaurantItem;

@@ -4,18 +4,14 @@ import { StyleSheet, Text, View, FlatList } from "react-native";
 import RestaurantItem from "./src/components/restaurantItem/RestaurantItem.jsx";
 import restaurants from "./assets/data/restaurants.json";
 
-export default function App() {
-  console.log(restaurants[0]);
+export default function App ()
+{
+  console.log(restaurants[0])
   return (
     <View style={styles.container}>
       <FlatList
         data={restaurants}
-        renderItem={({ item }) => (
-          <RestaurantItem
-            restaurant={item}
-            showsVerticalScrollIndicator={false}
-          />
-        )}
+        renderItem={({item}) => <RestaurantItem restaurant={item} showVerticalScrollIndicator={/>}
       />
       <StatusBar style="auto" />
     </View>
@@ -29,6 +25,5 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 10,
-    paddingVertical: 30,
   },
 });

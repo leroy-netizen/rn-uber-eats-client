@@ -53,11 +53,6 @@ const styles = StyleSheet.create({
   rating: {
     marginLeft: "auto",
     backgroundColor: "lightgray",
-    width: 30,
-    height: 20,
-    borderRadius: 20,
-    alignItems: "center",
-    justifyContent: "center",
   },
 });
 

@@ -54,10 +54,8 @@ const styles = StyleSheet.create({
     marginLeft: "auto",
     backgroundColor: "lightgray",
     width: 30,
-    height: 20,
-    borderRadius: 20,
-    alignItems: "center",
-    justifyContent: "center",
+    height: 10,
+    border
   },
 });
 
