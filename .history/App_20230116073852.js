@@ -34,14 +34,7 @@ const styles = StyleSheet.create({
   image: {
     width: "100%",
     aspectRatio: 5 / 3,
-    marginBottom: 5,
   },
-  title: {
-    fontSize: 16,
-    fontWeight: 400,
-    marginVertical: 5,
-  },
-  subtitle: {
-    color: "grey",
-  },
+  title: {},
+  subtitle: {},
 });

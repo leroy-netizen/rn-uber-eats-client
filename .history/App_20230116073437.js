@@ -12,8 +12,6 @@ export default function App() {
           }}
           style={styles.image}
         />
-        <Text style={styles.titlw}>Cheese Tequeños</Text>
-        <Text style={styles.subtitle}>$ $1.99 15-30 minutes</Text>
       </View>
       <StatusBar style="auto" />
     </View>
@@ -26,7 +24,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-    padding: 10,
   },
   restaurantContainer: {
     width: "100%",
@@ -34,14 +31,5 @@ const styles = StyleSheet.create({
   image: {
     width: "100%",
     aspectRatio: 5 / 3,
-    marginBottom: 5,
-  },
-  title: {
-    fontSize: 16,
-    fontWeight: 400,
-    marginVertical: 5,
-  },
-  subtitle: {
-    color: "grey",
   },
 });
