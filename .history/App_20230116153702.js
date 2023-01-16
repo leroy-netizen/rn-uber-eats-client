@@ -6,8 +6,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       {/* <HomeScreen /> */}
-      <RestaurantDetails />
-      <StatusBar style="light" />
+      {/* <RestaurantDetails /> */}
+      <StatusBar style="auto" />
     </View>
   );
 }

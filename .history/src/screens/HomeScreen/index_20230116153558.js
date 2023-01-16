@@ -20,7 +20,6 @@ const HomeScreen = () => {
 const styles = StyleSheet.create({
   page: {
     padding: 10,
-    paddingVertical: 30
   },
 });
 export default HomeScreen;
