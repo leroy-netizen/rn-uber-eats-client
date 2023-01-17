@@ -1,0 +1,1 @@
+import { View, Image, Text, FlatList } from 'react-native';
